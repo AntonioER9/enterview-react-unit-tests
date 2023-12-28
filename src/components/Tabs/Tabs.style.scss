@@ -1,0 +1,20 @@
+.tabs-container {
+}
+
+.tab {
+  padding: 1rem 2rem;
+  border: 1px solid #d4d4d8;
+  border-bottom: none;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+
+  background: #fafafa;
+
+  &:hover {
+    background: #dbeafe;
+  }
+
+  &.active {
+    background: #bfdbfe;
+  }
+}

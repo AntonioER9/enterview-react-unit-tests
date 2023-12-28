@@ -1,0 +1,33 @@
+
+$height: 20rem;
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+  padding: 100px;
+}
+
+.app-tabs {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.app-content {
+  display: grid;
+  place-items: center;
+
+  height: $height;
+  width: calc($height * 2);
+  box-shadow: 10px 10px 9px -4px rgba(0, 0, 0, 0.14);
+  border: 1px solid #d4d4d8;
+  background: #fafafa;
+
+  border-radius: 0 5px 5px 5px;
+}
