@@ -12,6 +12,10 @@ const TemperatureDisplayer = ({ temperature }) => {
 }
 
 export const Exercise03 = ({ temperature, loading, error } = '') => {
+  console.log(temperature);
+  console.log(loading);
+  console.log(error);
+  
   return (
     <div className="flex-col">
       {loading && <div className="text-bold">🕒 Loading...</div>}

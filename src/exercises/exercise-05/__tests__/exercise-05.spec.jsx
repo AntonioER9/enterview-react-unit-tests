@@ -8,8 +8,8 @@ describe('Exercise05', () => {
   })
 
   it('should call onRender when rendered', () => {
-    const onRender = jest.fn()
-
+    const onRender = jest.fn('')
+    
     render(<Exercise05 onRender={onRender} />)
     expect(onRender).toHaveBeenCalledWith('hello')
   })
