@@ -14,9 +14,6 @@ const TemperatureDisplayer = ({ temperature }) => {
 
 export const Exercise04 = () => {
   const [temperature, loading, error] = useFetchTemperature()
-  console.log(temperature);
-  console.log(loading);
-  console.log(error);
   
   return (
     <div className="flex-col">
